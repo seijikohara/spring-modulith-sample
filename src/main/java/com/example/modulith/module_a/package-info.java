@@ -1,4 +1,4 @@
 @org.springframework.modulith.ApplicationModule(
-        allowedDependencies = {"module.b"}
+        displayName = "ModuleA"
 )
-package com.example.modulith.module.a;
+package com.example.modulith.module_a;

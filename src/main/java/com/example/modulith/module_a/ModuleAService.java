@@ -1,4 +1,4 @@
-package com.example.modulith.module.a;
+package com.example.modulith.module_a;
 
 import com.example.modulith.common.CustomEvent;
 import org.springframework.context.ApplicationEventPublisher;

@@ -16,11 +16,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     implementation 'org.springframework.modulith:spring-modulith-starter-core'
-    runtimeOnly 'org.springframework.modulith:spring-modulith-actuator'
-    runtimeOnly 'org.springframework.modulith:spring-modulith-observability'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'io.projectreactor:reactor-test'
     testImplementation 'org.springframework.modulith:spring-modulith-starter-test'
